@@ -1,0 +1,117 @@
+/* default css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body css */
+body{
+    background: #eee;
+    font-family:'Roboto', sans-serif;;
+}
+/* container css */
+.container{
+    width: 75%;
+    margin: auto;
+    background: #d1ebeb;
+    padding: 6px;
+}
+/* header css */
+
+/* profile-image css */
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+/* profile-image css */
+.profile-image{
+    float: left;
+}
+/* header-bio css */
+.header-bio{
+    float: left;
+    padding: 30px 0;
+}
+/* default style css */
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+/* .header-contact class */
+.header-contact{
+    float: right;
+    padding: 0px 0;
+
+}
+.header-contact p{   
+     margin-bottom: 7px;
+    }
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bolder;
+}
+.header-contact a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+/* clear div css */
+.clear-div{
+    clear: both;
+}
+ /* hr css */
+ hr{
+    width: 100%;
+    margin: 30px auto;
+    border-top: 3px solid black;
+ }
+ /* persional-information */
+ #persional-information{}
+.content{}
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: left;
+    width: 70%;
+}
+hr.common{
+    border-top: 1px solid black;
+}
+ .right-div ul {
+
+padding-left: 30px;
+}
+.msc{
+    width: 40%;
+    float: left;
+}
+.bsc{
+    width: 40%;
+    float: right;
+    
+}
+/* fppter start css */
+footer {
+    background-color: black;
+    overflow: hidden;
+   
+}
+.bottom-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.bottom-container a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.bottom-container p{
+    padding-top: 20px;
+}
